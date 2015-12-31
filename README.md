@@ -21,4 +21,5 @@ Because vagrant is 2 hard 4 me. Some projects/libraries/etc are easier to instal
 - [Capstone](http://www.capstone-engine.org/)
 - [Angr](http://angr.io/)
 - [Radare2](https://github.com/radare/radare2)
+- [peda](https://github.com/longld/peda)
 - Build Essentials (and related like valgrind and python-pip)

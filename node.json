@@ -9,6 +9,7 @@
         "recipe[tools::build_essentials]",
         "recipe[tools::radare2]",
         "recipe[libraries::capstone]",
-        "recipe[tools::angr]"
+        "recipe[tools::angr]",
+        "recipe[tools::peda]"
     ]
 }
