@@ -12,6 +12,12 @@ execute "compile_capstone" do
     action :nothing
 end
 
+execute "install_capstone_bindings_python3" do
+    cwd "#{ENV['HOME']}/development/capstone/bindings/python"
+    command "python3 setup.py install"
+    action :nothing
+end
+
 execute "install_capstone_bindings" do
     cwd "#{ENV['HOME']}/development/capstone/bindings/python"
     command "python setup.py install"
